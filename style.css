@@ -1,0 +1,120 @@
+#app{
+    background: 
+    linear-gradient(135deg,#0000 20.5%,#11122a 0 29.5%,#0000 0) 0 12.5px,
+    linear-gradient( 45deg,#0000 8%,#11122a 0 17%, #0000 0 58%) 25px 0,
+    linear-gradient(135deg,#0000 8%,#11122a 0 17%, #0000 0 58%,#11122a 0 67%,#0000 0),        
+    linear-gradient( 45deg,#0000 8%,#11122a 0 17%, #0000 0 58%,#11122a 0 67%,#0000 0 83%,#11122a 0 92%,#0000 0),
+    #11122e;
+    background-size: 50px 50px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Sulphur Point', sans-serif;
+}
+
+.titulo{
+    position: absolute;
+    top: 1em;
+    color: #ffc039;
+    font-weight: bold;
+    font-size: 2em;
+
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    background: 
+    linear-gradient(135deg,#0000 20.5%,#f2b32b 0 29.5%,#0000 0) 0 15.5px,
+    linear-gradient( 45deg,#0000 8%,#f2b32b 0 17%, #0000 0 58%) 31px 0,
+    linear-gradient(135deg,#0000 8%,#f2b32b 0 17%, #0000 0 58%,#f2b32b 0 67%,#0000 0),        
+    linear-gradient( 45deg,#0000 8%,#f2b32b 0 17%, #0000 0 58%,#f2b32b 0 67%,#0000 0 83%,#f2b32b 0 92%,#0000 0),
+    #ffc039;
+    background-size: 62px 62px;
+    padding: 2em;
+    border-radius: .5em;
+    width: 40vw;
+    height: 40vh;
+    border: solid  .2em;
+}
+
+.holder{
+    color: #00213e;
+    font-weight: bold;
+    font-size: 2em;
+    padding: 1em 0;
+}
+
+.input-container{
+    display: flex;
+    gap: 1em;
+}
+
+.input{
+    background: none;
+    border: solid .1em #00213e;
+    border-radius: .3em;
+    margin: .2em;
+    width: 25vw;
+    padding: .5em;
+    font-size: 1.1em;
+}
+
+.input2{
+    background: none;
+    border: solid .1em #00213e;
+    border-radius: .3em;
+    margin: .2em;
+    width: 5vw;
+    padding: .5em;
+    font-size: 1.1em;
+}
+
+.input3{
+    background: none;
+    border: solid .1em #00213e;
+    border-radius: .3em;
+    margin: .2em;
+    width: 5vw;
+    padding: .5em;
+    font-size: 1.1em;
+}
+
+@media screen and (max-width: 868px) {
+    .card{
+        width: 60vw;
+    }
+
+    .input{
+        width: 45vw;
+    }
+
+    .input2{
+        width: 10vw;
+    }
+
+    .input3{
+        width: 8vw;
+    }
+}
+
+@media screen and (max-width: 868px) {
+    .card{
+        width: 80vw;
+        height: 30vh;
+    }
+
+    .input{
+        font-size: 1em;
+    }
+
+    .input2{
+        font-size: 1em;
+        width: 15vw;
+    }
+
+    .input3{
+        font-size: 1em;
+    }
+}
